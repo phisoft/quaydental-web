@@ -41,7 +41,7 @@ hr {
         border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: 0px;
-    border-top: 3px solid #6C675C !important;
+    border-top: 3px solid #00698e!important;
     margin: 80px !important;
     margin-bottom: 0 !important;
     margin-left: 0px !important;
@@ -85,7 +85,7 @@ div.sticky {
 }
 
 .navbar {
-    padding: 0px 64px !important;
+    padding: 0px 100px !important;
     height: 72px;
 }
 
@@ -98,13 +98,20 @@ div.sticky {
 }
 
 .top-container {
-    padding: 60px 60px 32px;
-    margin-top: 10%;
+    padding: 250px 60px 32px 100px;
+    margin-bottom: 30%;
+}
+
+@media screen and (max-width: 768px){
+    .top-container{
+            padding: 30px;
+            margin-bottom: 0px;
+    }      
 }
 
 .top-title {
-    color: #bc8452;
-    margin-bottom: 20px !important;
+    color: #bda78b;
+    font-size:75px !important;
 }
 
 .top-subtitle {
@@ -140,7 +147,12 @@ div.sticky {
 
 @media screen and (max-width: 768px){
     .quay-bg1 {
-        width: 100%;
+        color: white;
+        height: 330px;
+        color: white; 
+        background-image: url(../images/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         background-position: center;
     }
 }
@@ -173,9 +185,9 @@ div.sticky {
 }
 
 .promise {
-    padding: 80px;
+    /* padding: 80px; */
     padding-top: 0;
-    margin: 0px 5% 0px 5% !important;
+    margin: 0px 5% 90px 5% !important;
 }
 
 @media screen and (max-width:758px){
@@ -190,13 +202,17 @@ div.sticky {
     .promise-col {
         padding: 10px !important;
     }
+
+    .promise-title {
+        padding: 40px 0px 40px 0px !important;
+    }
 }
 .promise-title {
-    padding: 40px 0px 64px;
+    padding: 90px 0px 64px;
 }
 
 .promise-col {
-    border-top: 1px solid #D1CCC2;
+    border-top: 1px solid #bda87b;
     padding: 25px;
 }
 
@@ -214,7 +230,7 @@ div.sticky {
 
 @media screen and (max-width:768px) {
     .service {
-        padding: 20px;
+        padding: 70px 20px 20px 20px;
     }
 
     .service-col {
@@ -240,10 +256,6 @@ div.sticky {
     padding: 40px 0px 64px;
 }
 
-.services-img {
-    text-align: center;
-}
-
 
 img {
     max-width: 100%;
@@ -251,22 +263,37 @@ img {
 
 .service-desc h4 {
     color: #266880 !important;
-    font-size: 35px !important;
+    font-size: 55px !important;
     padding-top: 15%;
 }
 
 .service-desc span {
     font-size: 18px !important;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 22px !important;
+    color: #666;
+    padding-top: 0;
+    font-weight: 100 !important;
+    line-height: 1.5;
 }
 
 .book {
-    padding: 80px !important;
+    padding: 100px !important;
     background-color: #ffeedf;
     
 }
 
+@media screen and (max-width: 768px){
+    .book {
+        padding: 40px !important;
+    }
+    .book .col-md-6 {
+        padding: 0px !important;
+    }
+}
+
 .book-title {
-    color: #dda879;
+    color: #00698e;
     margin-bottom: 50px !important;
     
 }
@@ -287,7 +314,7 @@ img {
 
 #footer {
     background-color: #4a7a8f;
-    padding: 80px;
+    padding: 100px;
     padding-bottom: 40px;
 }
 
