@@ -98,13 +98,14 @@ div.sticky {
 }
 
 .top-container {
-    padding: 60px 60px 32px;
-    margin-top: 10%;
+    padding: 130px 60px 32px 100px;
+    margin-bottom: 10%;
 }
 
 .top-title {
-    color: #bc8452;
+    color: #bda78b;
     margin-bottom: 20px !important;
+    font-size:85px !important;
 }
 
 .top-subtitle {
@@ -173,7 +174,7 @@ div.sticky {
 }
 
 .promise {
-    padding: 80px;
+    /* padding: 80px; */
     padding-top: 0;
     margin: 0px 5% 0px 5% !important;
 }
@@ -238,10 +239,6 @@ div.sticky {
 
 .service-title {
     padding: 40px 0px 64px;
-}
-
-.services-img {
-    text-align: center;
 }
 
 
