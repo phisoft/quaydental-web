@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Playfair Display', serif !important;
     height: 100%;
     width:100%
 }
@@ -76,7 +76,7 @@ div.sticky {
     justify-content: center;
     background-color: #75a7b9;
     color: white;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Playfair Display', serif !important;
     font-weight: 700;
     letter-spacing: 2px;
     padding-top: 16px;
@@ -91,8 +91,8 @@ div.sticky {
 
 .nav-link {
     line-height: 1.43;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 500;
     padding-left: 24px !important;
     color: #6c675c;
 }
@@ -158,7 +158,7 @@ div.sticky {
 
 #top {
     margin-top: 0;
-    background: #ffeedf;
+    background: #ffcea3;
 }
 
 .text-banner {
@@ -170,7 +170,7 @@ div.sticky {
     padding-right: 30%;
     text-align: center;
     line-height: 1.5;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Playfair Display', serif !important;
 }
 
 .carousel-item {
@@ -282,7 +282,7 @@ img {
 
 .book {
     padding: 100px !important;
-    background-color: #ffeedf;
+    background-color: #ffcea3;
     
 }
 
@@ -339,7 +339,7 @@ img {
 }
 
 .contact h5 {
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Playfair Display', serif !important;
     font-size: 17px;
     color: #b7d0db;
 }
