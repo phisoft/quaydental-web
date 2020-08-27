@@ -126,7 +126,6 @@ div.sticky {
     color: white !important;
     padding: 12px 32px !important;
     font-size: 0.875rem !important;
-    min-width: 328px !important;
     box-shadow: none !important;
     box-sizing: border-box !important;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -233,11 +232,6 @@ div.sticky {
         padding: 70px 20px 20px 20px;
     }
 
-    .service-col {
-        margin-bottom: 40px !important;
-        border : 1px solid #dee2e6;
-    }
-
     .row {
         margin-left: 0px !important;
         margin-right: 0px !important;
@@ -245,6 +239,15 @@ div.sticky {
 
     .service-col {
         padding : 10px;
+    }
+
+    .service-col .col-md-3 {
+        padding-left : 0px !important;
+        padding-right : 0px !important;
+    }
+
+    .services-img {
+        margin-bottom: 10%;
     }
 }
 
@@ -263,8 +266,7 @@ img {
 
 .service-desc h4 {
     color: #266880 !important;
-    font-size: 55px !important;
-    padding-top: 15%;
+    font-size: 35px !important;
 }
 
 .service-desc span {
@@ -276,6 +278,7 @@ img {
     font-weight: 100 !important;
     line-height: 1.5;
 }
+
 
 .book {
     padding: 100px !important;
@@ -394,6 +397,10 @@ i.fab:hover {
 
     .navbar-brand {
         padding-left: 1em;
+    }
+
+    .navbar-brand img {
+        height: 35px;
     }
 
     .navbar-collapse {
