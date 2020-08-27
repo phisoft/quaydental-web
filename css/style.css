@@ -4,6 +4,12 @@ html, body {
     width:100%
 }
 
+@media screen and (max-width: 768px) {
+    .top-title {
+        font-size : 50px !important;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif !important;
     margin: 0 !important;
@@ -111,7 +117,7 @@ div.sticky {
 
 .top-title {
     color: #bda78b;
-    font-size:75px !important;
+    font-size:75px;
 }
 
 .top-subtitle {
@@ -134,6 +140,16 @@ div.sticky {
     border-radius: 100px !important;
     letter-spacing: 0.12em !important;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+    .top-container .col-sm-12 {
+        text-align : center;
+    }
+
+    .service-col .col-sm-12 {
+        text-align : center;
+    }
 }
 
 .quay-bg1 {
@@ -162,7 +178,7 @@ div.sticky {
 }
 
 .text-banner {
-    color: #4d899d;
+    color: #00698e;;
     font-size: 2.1em !important;
     font-weight: 400 !important;
     padding: 150px;
@@ -195,11 +211,11 @@ div.sticky {
     }
 
     .promise {
-        padding: 20px !important;
+        padding: 10px !important;
     }
 
     .promise-col {
-        padding: 10px !important;
+        padding: 15px !important;
     }
 
     .promise-title {
@@ -216,7 +232,7 @@ div.sticky {
 }
 
 .promise-desc {
-    font-size: 22px !important;
+    font-size: 19px !important;
     color: #666;
     padding-top: 0;
     font-weight: 100 !important;
@@ -232,10 +248,11 @@ div.sticky {
         padding: 70px 20px 20px 20px;
     }
 
-    .row {
+    .promise .row .col-md-3{
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
 
     .service-col {
         padding : 10px;
@@ -247,7 +264,7 @@ div.sticky {
     }
 
     .services-img {
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
 }
 
@@ -288,7 +305,7 @@ img {
 
 @media screen and (max-width: 768px){
     .book {
-        padding: 40px !important;
+        padding: 45px !important;
     }
     .book .col-md-6 {
         padding: 0px !important;
@@ -323,7 +340,7 @@ img {
 
 @media screen and (max-width: 768px){
     #footer {
-        padding: 20px;
+        padding: 40px;
     }
 }
 
@@ -401,6 +418,7 @@ i.fab:hover {
 
     .navbar-brand img {
         height: 35px;
+        padding-left: 10px;
     }
 
     .navbar-collapse {
@@ -442,7 +460,7 @@ i.fab:hover {
 
 @media screen and (min-width:768px) and (max-width:840px) {
     .top-title {
-        font-size: 3.5em !important;
+        font-size: 50px !important;
     }
 
     .top-subtitle {
@@ -453,3 +471,4 @@ i.fab:hover {
         min-width: 200px !important;
     }
 }
+
