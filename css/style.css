@@ -4,6 +4,12 @@ html, body {
     width:100%
 }
 
+@media screen and (max-width: 768px) {
+    .top-title {
+        font-size : 50px !important;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif !important;
     margin: 0 !important;
@@ -16,14 +22,14 @@ h1 {
 
 h2 {
     font-size: 40px !important;
-    color: #BC8452;
+    color: #BDA78B;
     font-weight: 700 !important;
 }
 
 h4 {
     font-size: 24px !important;
     padding: 24px 0px 16px;
-    color: #6C675C;
+    color: #00698e;
     font-weight: bold !important;
 }
 
@@ -111,13 +117,13 @@ div.sticky {
 
 .top-title {
     color: #bda78b;
-    font-size:75px !important;
+    font-size:75px;
 }
 
 .top-subtitle {
     font-size: 24px !important;
     margin-bottom: 34px !important;
-    color: #6c675c;
+    color: #BDA78B;
     font-weight: 400 !important;
 }
 
@@ -134,6 +140,16 @@ div.sticky {
     border-radius: 100px !important;
     letter-spacing: 0.12em !important;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+    .top-container .col-sm-12 {
+        text-align : center;
+    }
+
+    .service-col .col-sm-12 {
+        text-align : center;
+    }
 }
 
 .quay-bg1 {
@@ -158,11 +174,11 @@ div.sticky {
 
 #top {
     margin-top: 0;
-    background: #ffcea3;
+    background: #E6D5C4;
 }
 
 .text-banner {
-    color: #4d899d;
+    color: #00698E;
     font-size: 2.1em !important;
     font-weight: 400 !important;
     padding: 150px;
@@ -195,11 +211,11 @@ div.sticky {
     }
 
     .promise {
-        padding: 20px !important;
+        padding: 10px !important;
     }
 
     .promise-col {
-        padding: 10px !important;
+        padding: 15px !important;
     }
 
     .promise-title {
@@ -216,8 +232,8 @@ div.sticky {
 }
 
 .promise-desc {
-    font-size: 22px !important;
-    color: #666;
+    font-size: 19px !important;
+    color: #00698E;
     padding-top: 0;
     font-weight: 100 !important;
     line-height: 1.5;
@@ -232,10 +248,11 @@ div.sticky {
         padding: 70px 20px 20px 20px;
     }
 
-    .row {
+    .promise .row .col-md-3{
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
 
     .service-col {
         padding : 10px;
@@ -247,7 +264,7 @@ div.sticky {
     }
 
     .services-img {
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
 }
 
@@ -265,7 +282,7 @@ img {
 }
 
 .service-desc h4 {
-    color: #266880 !important;
+    color: #00698e!important;
     font-size: 35px !important;
 }
 
@@ -273,7 +290,7 @@ img {
     font-size: 18px !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 22px !important;
-    color: #666;
+    color: #00698E;
     padding-top: 0;
     font-weight: 100 !important;
     line-height: 1.5;
@@ -282,13 +299,13 @@ img {
 
 .book {
     padding: 100px !important;
-    background-color: #ffcea3;
+    background-color: #E6D5C4;
     
 }
 
 @media screen and (max-width: 768px){
     .book {
-        padding: 40px !important;
+        padding: 45px !important;
     }
     .book .col-md-6 {
         padding: 0px !important;
@@ -323,12 +340,12 @@ img {
 
 @media screen and (max-width: 768px){
     #footer {
-        padding: 20px;
+        padding: 40px;
     }
 }
 
 .footer-title h4 {
-    color: #b7d0db;
+    color: #FFF;
     font-size: 32px !important;
     padding-bottom: 40px;
 }
@@ -341,7 +358,7 @@ img {
 .contact h5 {
     font-family: 'Playfair Display', serif !important;
     font-size: 17px;
-    color: #b7d0db;
+    color: #FFF;
 }
 
 .contact {
@@ -401,6 +418,7 @@ i.fab:hover {
 
     .navbar-brand img {
         height: 35px;
+        padding-left: 10px;
     }
 
     .navbar-collapse {
@@ -442,7 +460,7 @@ i.fab:hover {
 
 @media screen and (min-width:768px) and (max-width:840px) {
     .top-title {
-        font-size: 3.5em !important;
+        font-size: 50px !important;
     }
 
     .top-subtitle {
@@ -453,3 +471,4 @@ i.fab:hover {
         min-width: 200px !important;
     }
 }
+
