@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     font-size: 40px !important;
-    color: #BDA78B;
+    color: #D6AA80;
     font-weight: 700 !important;
 }
 
@@ -52,6 +52,7 @@ hr {
     margin-bottom: 0 !important;
     margin-left: 0px !important;
     margin-right: 0px !important;
+    display: none;
 }
 
 
@@ -108,21 +109,28 @@ div.sticky {
     margin-bottom: 30%;
 }
 
+.top-title {
+    color: #D9985A;
+    font-size:4.2em !important;
+}
+
+
 @media screen and (max-width: 768px){
     .top-container{
             padding: 30px;
-            margin-bottom: 0px;
+            margin-top: 50px;
+            margin-bottom: 50px;
     }      
-}
-
-.top-title {
-    color: #bda78b;
-    font-size:75px;
+    
+    .top-title {
+      color: #D9985A;
+      font-size:3em !important;
+    }
 }
 
 .top-subtitle {
     font-size: 24px !important;
-    margin-bottom: 34px !important;
+    margin-bottom: 44px !important;
     color: #BDA78B;
     font-weight: 400 !important;
 }
@@ -178,13 +186,12 @@ div.sticky {
 }
 
 .text-banner {
-    color: #00698E;
+    color: #006A92;
     font-size: 2.1em !important;
     font-weight: 400 !important;
     padding: 150px;
     padding-left: 30%;
     padding-right: 30%;
-    text-align: center;
     line-height: 1.5;
     font-family: 'Playfair Display', serif !important;
 }
@@ -222,18 +229,21 @@ div.sticky {
         padding: 40px 0px 40px 0px !important;
     }
 }
+
 .promise-title {
+    color: #D9985A;
     padding: 90px 0px 64px;
+    font-size: 2.6em !important;
 }
 
 .promise-col {
-    border-top: 1px solid #bda87b;
+    border-top: 1px solid ##eae0ca;
     padding: 25px;
 }
 
 .promise-desc {
-    font-size: 19px !important;
-    color: #00698E;
+    font-size: 16px !important;
+    color: #424748;
     padding-top: 0;
     font-weight: 100 !important;
     line-height: 1.5;
@@ -289,10 +299,7 @@ img {
 .service-desc span {
     font-size: 18px !important;
     font-family: 'Playfair Display', serif !important;
-    font-size: 22px !important;
-    color: #00698E;
     padding-top: 0;
-    font-weight: 100 !important;
     line-height: 1.5;
 }
 
@@ -446,9 +453,16 @@ i.fab:hover {
     }
 
     .text-banner {
-        font-size: 1.2em !important;
+        font-size: 1.7em !important;
+        line-height: 1.3em;
         padding: 50px;
     }
+
+}
+
+.text-banner-info {
+  font-size: 20px !important;
+  line-height: 1.5em;
 }
 
 @media screen and (min-width:768px) {
