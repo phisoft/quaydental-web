@@ -104,7 +104,7 @@ div.sticky {
 }
 
 .top-title {
-    color: #D9985A;
+    color: #d5aa80;
     font-size:4.2em !important;
 }
 
@@ -132,7 +132,7 @@ div.sticky {
 
 .quay-bg1 {
     color: white; 
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/3c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -171,13 +171,13 @@ div.sticky {
 }
 
 .promise-title {
-    color: #D9985A;
+    color: #d5aa80;
     padding: 90px 0px 64px;
     font-size: 2.6em !important;
 }
 
 .promise-col {
-    border-top: 1px solid ##eae0ca;
+    border-top: 1px solid #eae0ca;
     padding: 25px;
 }
 
@@ -352,7 +352,7 @@ i.fab:hover {
         color: white;
         height: 330px;
         color: white; 
-        background-image: url(../images/3.jpg);
+        background-image: url(../images/3c.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
