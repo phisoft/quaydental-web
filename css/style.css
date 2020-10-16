@@ -324,6 +324,11 @@ i.fab:hover {
     margin-top: 4px;
 }
 
+.doc-img {
+    max-width: 716px;
+    max-height: 716px;
+}
+
 @media screen and (max-width: 768px) {
     .top-title {
         font-size : 50px !important;
