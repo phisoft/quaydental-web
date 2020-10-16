@@ -132,7 +132,7 @@ div.sticky {
 
 .quay-bg1 {
     color: white; 
-    background-image: url(../images/3c.jpg);
+    background-image: url(../images/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -352,7 +352,7 @@ i.fab:hover {
         color: white;
         height: 330px;
         color: white; 
-        background-image: url(../images/3c.jpg);
+        background-image: url(../images/main.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
