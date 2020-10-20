@@ -1,4 +1,5 @@
 html, body {
+    scroll-behavior: smooth;
     font-family: 'Playfair Display', serif !important;
     height: 100%;
     width:100%
@@ -167,12 +168,13 @@ div.sticky {
 .promise {
     /* padding: 80px; */
     padding-top: 0;
-    margin: 0px 5% 90px 5% !important;
+    margin: 60px 5% 90px 5% !important;
+    border-top: 2px solid #424748;
 }
 
 .promise-title {
     color: #d5aa80;
-    padding: 90px 0px 64px;
+    padding: 55px 0px 60px;
     font-size: 2.6em !important;
 }
 
@@ -191,6 +193,7 @@ div.sticky {
 
 .service {
     padding: 80px;
+    border-top: 2px solid #424748;
 }
 
 .service-col {
@@ -198,7 +201,7 @@ div.sticky {
 }
 
 .service-title {
-    padding: 40px 0px 64px;
+    padding: 50px 0px 45px;
 }
 
 
