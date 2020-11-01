@@ -136,6 +136,9 @@ div.sticky {
 }
 
 .text-banner {
+    background-image: url(../images/location.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #006A92;
     font-size: 2.1em !important;
     font-weight: 400 !important;
@@ -158,12 +161,19 @@ div.sticky {
 
 .promise {
     padding-top: 0;
-    margin: 60px 5% 90px 5% !important;
+    margin: 60px 5% 50px 5% !important;
 }
 
 .promise-title {
     color: #d5aa80;
     padding: 55px 0px 60px;
+    padding-top: 35px;
+    font-size: 2.6em !important;
+}
+
+.promise-title2 {
+    color: #d5aa80;
+    padding: 55px 0px 40px;
     padding-top: 35px;
     font-size: 2.6em !important;
 }
@@ -320,6 +330,54 @@ i.fab:hover {
 .doc-img {
     max-width: 716px;
     max-height: 716px;
+}
+
+.border-img {
+    padding-top: 25px;
+    border-top: 1px solid #eae0ca;
+}
+
+.row2 {
+    margin-right: 0 !important;
+}
+
+@media screen and (min-width:360px) {
+    .doc-img {
+        max-width: 304px;
+        max-height: 304px;
+    }
+    .banner-location {
+        background-image: url(../images/location-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 180px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .doc-img {
+        max-width: 317px;
+        max-height: 317px;
+    }
+    .banner-location {
+        background-image: url(../images/location-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 190px;
+    }
+}
+
+@media screen and (min-width:411px) and (max-width:414px) {
+    .doc-img {
+        max-width: 355px;
+        max-height: 362px;
+    }
+    .banner-location {
+        background-image: url(../images/location-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 205px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -491,5 +549,61 @@ i.fab:hover {
     .btn {
         width: 90% !important;
         float: left;
+    }
+    .banner-location {
+        background-image: url(../images/location.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 110px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .btn-pos {
+        padding-bottom: 28px;
+    }
+    .doc-img {
+        max-width: 541px;
+        max-height: 541px;
+    }
+    .banner-location {
+        background-image: url(../images/location.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 180px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .btn-pos2 {
+        padding-bottom: 27px;
+    }
+
+    .doc-img {
+        max-width: 613px;
+        max-height: 613px;
+    }
+
+    .banner-location {
+        background-image: url(../images/location.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 220px;
+    }
+}
+
+@media screen and (min-width:1680px) {
+    .btn-pos3 {
+        padding-bottom: 27px;
+    }
+    .doc-img {
+        max-width: 741px;
+        max-height: 741px;
+    }
+    .banner-location {
+        background-image: url(../images/location.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 250px;
     }
 }
