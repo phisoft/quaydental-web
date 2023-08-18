@@ -273,6 +273,22 @@ img {
 
 .contact {
     padding-bottom: 24px;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item h5 {
+    margin: 0;
+    width: 120px;
+}
+
+.contact-item span {
+    margin: 0;
 }
 
 .contact a {
